@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo"> My Currency Converter
+            
+        </div>
+        <ul>
+            <li><a href="/home">Home</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+
+
+    </nav>
+    <div class="container">
+    <h1>Currency Converter</h1>
+
+    <form>
+
+        <label for="amount">Enter Amount:</label>
+        <input type="number" id="amount" placeholder="Enter amount">
+
+        <label for="from">From:</label>
+        <select id="from">
+            <option value="INR">INR</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+            <option value="JPY">JPY</option>
+            <option value="AUD">AUD</option>
+            <option value="CAD">CAD</option>
+        </select>
+
+        <label for="to">To:</label>
+        <select id="to">
+               <option value="USD">USD - US Dollar</option>
+    <option value="INR">INR - Indian Rupee</option>
+    <option value="EUR">EUR - Euro</option>
+    <option value="GBP">GBP - British Pound</option>
+    <option value="JPY">JPY - Japanese Yen</option>
+    <option value="AUD">AUD - Australian Dollar</option>
+    <option value="CAD">CAD - Canadian Dollar</option>
+        </select>
+
+        <button class="btn" type="submit">Convert</button>
+
+    </form>
+
+    <h2 id="result"></h2>
+</div>
+    
+    <footer>
+        Copyright &copy; all rights reserved 
+
+    </footer>
+
+  
+
+
+   
+    <script src="script.js"></script>
+</body>
+</html>
